@@ -1,13 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+  font-family: "stitchicons";
+  src:url("https://file.myfontastic.com/T4S3xZmdtZ32ov9ofQ2jvR/fonts/1480503676.eot");
+  src:url("https://file.myfontastic.com/T4S3xZmdtZ32ov9ofQ2jvR/fonts/1480503676.eot?#iefix") format("embedded-opentype"),
+    url("https://file.myfontastic.com/T4S3xZmdtZ32ov9ofQ2jvR/fonts/1480503676.woff") format("woff"),
+    url("https://file.myfontastic.com/T4S3xZmdtZ32ov9ofQ2jvR/fonts/1480503676.ttf") format("truetype"),
+    url("https://file.myfontastic.com/T4S3xZmdtZ32ov9ofQ2jvR/fonts/1480503676.svg#1480503676") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -19,9 +19,8 @@ body {
 	background: #32404c;
 	color: #fff;
 	font-weight: 400;
-	font-size: 22px;
 	line-height: 1.5;
-	font-family: 'Raleway', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
@@ -91,7 +90,7 @@ a:hover, a:focus {
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
-	font-family: 'codropsicons';
+	font-family: 'stitchicons';
 	text-align: center;
 	speak: none;
 	margin: 0 0.55em 0 0;

@@ -7,6 +7,7 @@
 		<title>Stitch | Build your global dream team!</title>
 		<meta name="description" content="Stitch is an online platform to help realise your dreams and ambitions. Build your global dream team." />
 		<meta name="author" content="Stitch Online Services" />
+
 		<!-- Google Tag Manager -->
 		<script>
 			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -16,6 +17,7 @@
 			})(window,document,'script','dataLayer','GTM-NX5B3NK');
 		</script>
 		<!-- End Google Tag Manager -->
+
 		<link rel="apple-touch-icon" sizes="180x180" href="http://assets.heystitch.io/icons/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="http://assets.heystitch.io/icons/favicons/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="http://assets.heystitch.io/icons/favicons/favicon-16x16.png" sizes="16x16">
@@ -24,9 +26,9 @@
     <link rel="shortcut icon" href="http://assets.heystitch.io/icons/favicons/favicon.ico">
     <meta name="msapplication-config" content="http://assets.heystitch.io/icons/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="http://assets.heystitch.io/css/stitch-bstrp.min.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<meta name="HandheldFriendly" content="True" />
 	  <meta name="MobileOptimized" content="320" />
 		<!--[if IE]>
@@ -34,23 +36,75 @@
 		<![endif]-->
 	</head>
 	<body>
+
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
 			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX5B3NK"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		<div id="container" class="container intro-effect-push">
+
+		<div id="main-container" class="main-container intro-effect-push">
 			<header class="header">
-				<div class="bg-img"><img src="img/7.jpg" alt="Background Image"/></div>
+				<nav class="navbar navbar-default" style="background:transparent;border:none;z-index:999;">
+				  <div class="container">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">
+								<img alt="Stitch Icon" src="http://assets.heystitch.io/images/logos/icon-logo-discourse.png">
+								<span>Stitch</span>
+							</a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+				        <li><a href="/about">About</a></li>
+								<li><a href="https://community.heystitch.io">Community</a></li>
+								<li><a href="https://blog.heystitch.io">Blog</a></li>
+				      </ul>
+				      <ul class="nav navbar-nav navbar-right">
+								<li><p class="navbar-text" style="opacity: 0.33;">Community</p></li>
+				        <li>
+									<form style="padding-left:0;" action="http://stitchdev.us14.list-manage.com/subscribe/post?u=bd2a4dcb09dad45f9edf93805&amp;id=b8be7bb9b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate navbar-form" target="_blank" novalidate>
+										<input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+									</form>
+								</li>
+								<li>
+									<form style="padding-left:0;padding:right:0;" action="http://stitchdev.us14.list-manage.com/subscribe/post?u=bd2a4dcb09dad45f9edf93805&amp;id=b8be7bb9b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate navbar-form" target="_blank" novalidate>
+										<input style="padding-left:0;padding:right:0;" type="submit" value="Log In" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+									</form>
+								</li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+				<div class="bg-img"><img src="" alt="Background Image"/></div>
 				<div class="title">
-					<nav class="codrops-demos">
-						<a class="current-demo" href="/">Home</a>
-						<a href="/about">About</a>
-						<a href="https://community.heystitch.io">Community</a>
-						<a href="https://blog.heystitch.io">Blog</a>
-					</nav>
-					<h1>Breathe under water till the end</h1>
+					<!-- Heading -->
+	        <div class="heading">
+						<div class="brand">
+		          <span class="regular">hey</span><span class="stitch" data-shadow='stitch'>stitch</span><span class="regular">.io</span>
+						</div>
+						<h4 class="subtitle">We're busy building something great. Join our mailing list and we'll keep you in the loop.</h4>
+	        </div>
+
+					<!-- Signup Form -->
+					<form action="http://stitchdev.us14.list-manage.com/subscribe/post?u=bd2a4dcb09dad45f9edf93805&amp;id=b8be7bb9b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div class="input-group">
+				      <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="hero@anywhere.com" required>
+				      <span class="input-group-btn">
+				        <input type="submit" value="Join List" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+				      </span>
+				    </div><!-- /input-group -->
+					</form>
 				</div>
 			</header>
 			<button class="trigger"><span>Trigger</span></button>
@@ -122,149 +176,11 @@
 				</div>
 			</article>
 		</div><!-- /container -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 		<script src="js/classie.js"></script>
-		<script>
-			(function() {
+		<script src="js/main.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
-				// detect if IE : from http://stackoverflow.com/a/16657946
-				var ie = (function(){
-					var undef,rv = -1; // Return value assumes failure.
-					var ua = window.navigator.userAgent;
-					var msie = ua.indexOf('MSIE ');
-					var trident = ua.indexOf('Trident/');
-
-					if (msie > 0) {
-						// IE 10 or older => return version number
-						rv = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
-					} else if (trident > 0) {
-						// IE 11 (or newer) => return version number
-						var rvNum = ua.indexOf('rv:');
-						rv = parseInt(ua.substring(rvNum + 3, ua.indexOf('.', rvNum)), 10);
-					}
-
-					return ((rv > -1) ? rv : undef);
-				}());
-
-
-				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179
-				// left: 37, up: 38, right: 39, down: 40,
-				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
-
-				function preventDefault(e) {
-					e = e || window.event;
-					if (e.preventDefault)
-					e.preventDefault();
-					e.returnValue = false;
-				}
-
-				function keydown(e) {
-					for (var i = keys.length; i--;) {
-						if (e.keyCode === keys[i]) {
-							preventDefault(e);
-							return;
-						}
-					}
-				}
-
-				function touchmove(e) {
-					preventDefault(e);
-				}
-
-				function wheel(e) {
-					// for IE
-					//if( ie ) {
-						//preventDefault(e);
-					//}
-				}
-
-				function disable_scroll() {
-					window.onmousewheel = document.onmousewheel = wheel;
-					document.onkeydown = keydown;
-					document.body.ontouchmove = touchmove;
-				}
-
-				function enable_scroll() {
-					window.onmousewheel = document.onmousewheel = document.onkeydown = document.body.ontouchmove = null;
-				}
-
-				var docElem = window.document.documentElement,
-					scrollVal,
-					isRevealed,
-					noscroll,
-					isAnimating,
-					container = document.getElementById( 'container' ),
-					trigger = container.querySelector( 'button.trigger' );
-
-				function scrollY() {
-					return window.pageYOffset || docElem.scrollTop;
-				}
-
-				function scrollPage() {
-					scrollVal = scrollY();
-
-					if( noscroll && !ie ) {
-						if( scrollVal < 0 ) return false;
-						// keep it that way
-						window.scrollTo( 0, 0 );
-					}
-
-					if( classie.has( container, 'notrans' ) ) {
-						classie.remove( container, 'notrans' );
-						return false;
-					}
-
-					if( isAnimating ) {
-						return false;
-					}
-
-					if( scrollVal <= 0 && isRevealed ) {
-						toggle(0);
-					}
-					else if( scrollVal > 0 && !isRevealed ){
-						toggle(1);
-					}
-				}
-
-				function toggle( reveal ) {
-					isAnimating = true;
-
-					if( reveal ) {
-						classie.add( container, 'modify' );
-					}
-					else {
-						noscroll = true;
-						disable_scroll();
-						classie.remove( container, 'modify' );
-					}
-
-					// simulating the end of the transition:
-					setTimeout( function() {
-						isRevealed = !isRevealed;
-						isAnimating = false;
-						if( reveal ) {
-							noscroll = false;
-							enable_scroll();
-						}
-					}, 1200 );
-				}
-
-				// refreshing the page...
-				var pageScroll = scrollY();
-				noscroll = pageScroll === 0;
-
-				disable_scroll();
-
-				if( pageScroll ) {
-					isRevealed = true;
-					classie.add( container, 'notrans' );
-					classie.add( container, 'modify' );
-				}
-
-				window.addEventListener( 'scroll', scrollPage );
-				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
-			})();
-		</script>
 		<!-- Google Analytics -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -274,7 +190,6 @@
 
 		  ga('create', 'UA-88036949-3', 'auto');
 		  ga('send', 'pageview');
-
 		</script>
 	</body>
 </html>
